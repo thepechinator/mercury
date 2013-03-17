@@ -104,6 +104,6 @@ class @Mercury.Region
     return {
       type: @type()
       data: @dataAttributes()
-      value: @content(null, true)
+      value: @content(null, false)
       snippets: @snippets()
     }
